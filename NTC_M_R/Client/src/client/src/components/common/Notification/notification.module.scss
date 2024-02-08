@@ -1,0 +1,17 @@
+.notificationContainer {
+    border: 1px solid #adb5bd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    background-color: green;
+    bottom: 5px;
+    width: 20%;
+    right: 5px;
+}
+
+.closeBtn {
+    color: #fff !important;
+}

@@ -1,0 +1,41 @@
+$color-primary: #AD0028;
+$color-white: #FFF;
+$color-purple: #AD0028;
+$color-welcome-gray: #F3F5FD;
+$color-transparent: transparent;
+
+.color-banner {
+  color: #4c4c4c;
+}
+
+.primary {
+  color: $color-primary;
+}
+
+.white {
+  color: $color-white;
+}
+
+.bg-primary {
+  background-color: $color-primary;
+}
+
+.bg-purple {
+  background-color: $color-purple;
+}
+
+.border-primary {
+  border-color: $color-primary;
+}
+
+.bg-white {
+  background-color: $color-white;
+}
+
+.bg-welcome-gray {
+  background-color: $color-welcome-gray;
+}
+
+.bg-transparent {
+  background-color: $color-transparent;
+}

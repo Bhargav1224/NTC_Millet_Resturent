@@ -1,0 +1,56 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "ignorePatterns": ["/node_modules/*.js","/config/*.js","/config/*/*.js","/config/*/*/*.js","/scripts/*.js"],
+    "rules": {
+
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "comma-dangle": ["error", "never"]
+    },
+    "settings": {
+        "import/resolver": {
+          "node": {
+            "extensions": [".js", ".jsx"],
+            "moduleDirectory": ["node_modules", "src/"]
+          }
+        },
+        "alias": {
+            "extensions": [".js", ".jsx",".svg",".css"],
+            "map": [
+              ["@assets", "src/assets/*"],
+              ["@components", "src/components/*"],
+              ["@configs", "src/configs/*"],
+              ["@constants", "src/helpers/constants/*"],
+              ["@css", "src/assets/styles/css/*"],
+              ["@fonts", "src/assets/fonts/*"],
+              ["@hooks", "src/helpers/hooks/*"],
+              ["@images", "src/assets/images/*"],
+              ["@localizations", "src/helpers/localizations/*"],
+              ["@messages", "src/helpers/messages/*"],
+              ["@music", "src/assets/music/*"],
+              ["@utils", "src/helpers/utils/*"],
+              ["@reducers", "src/reducers/*"],
+              ["@scss", "src/assets/styles/scss/*"],
+              ["@localization", "src/localization/*"]
+            ]
+        }
+        
+    }
+}

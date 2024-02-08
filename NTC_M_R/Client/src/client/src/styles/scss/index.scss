@@ -1,0 +1,21 @@
+:root {
+  --main-bg-color: rgb(161, 28, 28);
+  --light-color: rgb(42, 159, 26);
+  --light-text-color: rgb(10, 104, 114);
+  --dark-color: rgb(166, 38, 151);
+  --dark-text-color: rgb(202, 195, 202);
+  --base-font-size: 14px;
+  
+  // button -> (ex : login form - submit button)
+  --button-text-color: rgb(252, 247, 247);
+  --button-bg-color: rgb(161, 28, 28);
+  --button-font-size: 16px;
+  --button-border:3px solid rgb(193, 193, 218);
+  --button-border-radius:5px;
+  --button-font: open-sans;
+}
+
+@font-face{
+  font-family : open-sans;
+  src:url(../../assets/fonts/OpenSans-Regular.ttf);
+}

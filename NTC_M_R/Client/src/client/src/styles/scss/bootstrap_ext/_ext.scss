@@ -1,0 +1,52 @@
+// Example for overwriting and extending bootstrap components
+
+.btn-primary {
+  $button-border-width: 2px;
+
+  border-width: $button-border-width;
+  border-radius: 6px;
+  height: 62px;
+  font-size: 25px;
+
+  &.btn-dark {
+    background-color: $black;
+    border-color: $black;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $black;
+    }
+  }
+}
+
+.navbar {
+  background-color: #FFF !important;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+  justify-content: center;
+  z-index: 10;
+}
+
+.accordion > .card {
+  overflow: unset;
+}
+
+.accordion > .card:last-of-type {
+  border-bottom: 0;
+}
+
+.accordion > .card .card-header {
+  background-color: #FFF;
+  border-radius: 0 !important;
+  h5 {
+    line-height: 0;
+    button {
+      padding: 0;
+      color: #080808;
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 15px;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "host" : "http://localhost:5000",
+    "default_title" : "Java - React Seeder Project - Production",
+    "default_desc" : "This is basic setup of Java - React Seeder Project",
+    "default_image" : "http://localhost:5000/favicon.png"
+}

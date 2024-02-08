@@ -1,0 +1,50 @@
+.loginBtn {
+  font-size: var(--button-font-size);
+  color: var(--button-text-color);
+  background-color: var(--button-bg-color);
+  font-family: var(--button-font);
+  border:var(--button-border);
+  border-radius:var(--button-border-radius);
+  border-bottom-width: 0;
+  font-weight: 600;
+  margin-bottom: 2%;
+  height: 35px;
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+
+.textFieldStyle {
+  border: 0 !important;
+  border-radius: 6px;
+  font-size: 1rem;
+  height: 58px;
+  padding: 1%;
+  background-color: #FFF;
+  margin-bottom: 2%;
+}
+
+.bgGray {
+  background-color: #F3F5FD !important;
+}

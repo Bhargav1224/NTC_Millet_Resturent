@@ -1,0 +1,35 @@
+.signupFormContainer {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+
+.loginBtn {
+  font-size: var(--button-font-size);
+  color: var(--button-text-color);
+  background-color: var(--button-bg-color);
+  font-family: var(--button-font);
+  border: var(--button-border);
+  border-radius: var(--button-border-radius);
+  border-bottom-width: 0;
+  font-weight: 600;
+  margin-bottom: 2%;
+  height: 35px;
+}
+
+.textFieldStyle {
+  border: 0 !important;
+  border-radius: 6px;
+  font-size: 1rem;
+  height: 58px;
+  padding: 1%;
+  background-color: #FFF;
+}
+
+.bgGray {
+  background-color: #F3F5FD !important;
+}
+
+.px10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}

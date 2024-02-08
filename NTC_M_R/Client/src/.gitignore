@@ -1,0 +1,4 @@
+/build
+./consumer/src/client/build
+./consumer/src/client/node_modules
+/node_modules
